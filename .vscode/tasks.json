@@ -2,18 +2,24 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "compile and run",
             "type": "shell",
             "command": "g++",
             "args": [
                 "\"${file}\"",
                 "-o",
-                "\"${fileBasenameNoExtension}.exe\""
+                "\"${fileDirname}/${fileBasenameNoExtension}.exe\""
             ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Compile current file"
+        },
+        {
+            "label": "run",
+            "type": "shell",
+            "dependsOn": "compile and run",
+            "command": "\"${fileDirname}/${fileBasenameNoExtension}.exe\"",
+            "problemMatcher": []
         }
     ]
 }
