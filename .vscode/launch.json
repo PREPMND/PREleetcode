@@ -6,7 +6,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileBasenameNoExtension}.exe",
-            "cwd": "${workspaceFolder}",
+            "cwd": "${fileDirname}",
             "MIMode": "gdb",
             "miDebuggerPath": "gdb.exe",
             "preLaunchTask": "build"
