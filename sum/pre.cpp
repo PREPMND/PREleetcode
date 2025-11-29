@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;        
 int main(){
-    char array[7]={'0','0','1','1','2','2','1'};
+    char array[7]={'0','0','1','1','2','2','3'};
     char result[7];
     char *ap=result;
     int k=0;
     for(int i=0;i<7;i++){
         for(int j=i+1;j<7;j++){
-            if((array[i]==array[j])&&(result[0]!=array[i])&&(result[1]!=array[i])&&(result[2]!=array[i])&&(result[3]!=array[i])&&(result[4]!=array[i])&&(result[5]!=array[i])&&(result[6]!=array[i])){
+            if((result[0]!=array[i])&&(result[1]!=array[i])&&(result[2]!=array[i])&&(result[3]!=array[i])&&(result[4]!=array[i])&&(result[5]!=array[i])&&(result[6]!=array[i])){
                 *ap=array[i];
                 ap++;
                 k++;        
