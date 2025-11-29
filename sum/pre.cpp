@@ -7,11 +7,10 @@ int main(){
     int k=0;
     for(int i=0;i<7;i++){
         for(int j=i+1;j<7;j++){
-            if(array[i]==array[j]){
+            if((array[i]==array[j])&&(result[0]!=array[i])&&(result[1]!=array[i])&&(result[2]!=array[i])&&(result[3]!=array[i])&&(result[4]!=array[i])&&(result[5]!=array[i])&&(result[6]!=array[i])){
                 *ap=array[i];
                 ap++;
-                k++;
-                break;    
+                k++;        
             }     
         }
     }
