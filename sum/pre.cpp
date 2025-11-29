@@ -11,7 +11,7 @@ int main(){
                 *ap=array[i];
                 ap++;
                 k++;
-                   
+                break;    
             }     
         }
     }
