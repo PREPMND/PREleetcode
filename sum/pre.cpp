@@ -11,9 +11,9 @@ int main(){
                 *ap=array[i];
                 ap++;
                 k++;
-                i++;
                 
-            }      
+                
+            } i++;     
         }
     }
     cout<<"OUTPUT: WILL BE HERE\n";
