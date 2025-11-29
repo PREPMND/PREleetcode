@@ -5,7 +5,7 @@
             "name": "Run C++(No Debug)",
             "type": "cppdbg",
             "request": "launch",
-            "program": "C:\Users/DELL/PREleetcode/sum/${fileBasenameNoExtension}.exe",
+            "program": "C:/Users/DELL/PREleetcode/sum/${fileBasenameNoExtension}.exe",
             "cwd": "${fileDirname}",
             "MIMode": "gdb",
             "miDebuggerPath": "",
