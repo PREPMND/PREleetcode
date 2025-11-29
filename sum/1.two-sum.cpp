@@ -12,4 +12,4 @@ int main(){
         }};
     }
     return 0;   
-}C:\Users\DELL\PREleetcode\PREleetcode\sum\1.two-sum.cpp
+}
