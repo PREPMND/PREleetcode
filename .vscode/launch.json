@@ -5,7 +5,7 @@
             "name": "Run C++(No Debug)",
             "type": "cppdbg",
             "request": "launch",
-            "program": "C:/Users/DELL/PREleetcodePREleetcode/sum/${fileBasenameNoExtension}.exe",
+            "program": "C:/Users/DELL/PREleetcode/PREleetcode/sum/${fileBasenameNoExtension}.exe",
             "cwd": "C:/Users/DELL/PREleetcode/PREleetcode/sum",
             "stopAtEntry": false,
             "externalConsole": true,
