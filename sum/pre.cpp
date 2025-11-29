@@ -5,8 +5,8 @@ int main(){
     char result[7];
     char *ap=result;
     int k=0;
-    for(int i=0;i<7;i++){
-        for(int j=i+1;j<7;j++){
+    for(int i=0;i<8;i++){
+        for(int j=i+1;j<8;j++){
             if((result[0]!=array[i])&&(result[1]!=array[i])&&(result[2]!=array[i])&&(result[3]!=array[i])&&(result[4]!=array[i])&&(result[5]!=array[i])&&(result[6]!=array[i])){
                 *ap=array[i];
                 ap++;
