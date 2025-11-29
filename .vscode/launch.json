@@ -8,7 +8,7 @@
             "program": "C:/Users/DELL/PREleetcode/sum/${fileBasenameNoExtension}.exe",
             "cwd": "C:/Users/DELL/PREleetcode/sum",
             "stopAtEntry": false,
-            "ex"
+            "externalConsole": true,
             "MIMode": "gdb",
             "miDebuggerPath": "",
             "preLaunchTask": "build"
