@@ -10,8 +10,9 @@ int main(){
             if(array[i]==array[j]){
                 *ap=array[i];
                 ap++;
-                i++;
                 k++;
+                i++;
+                
             }      
         }
     }
@@ -19,6 +20,6 @@ int main(){
     for(int k ;k<7;k++){
         result[k]=9;
     }
-    cout<<array[0]<<" "<<array[1]<<" "<<array[2]<<" "<<array[3]<<" "<<array[4]<<" "<<array[5]<<" "<<array[6]<<endl;
+    cout<<result[0]<<" "<<result[1]<<" "<<result[2]<<" "<<result[3]<<" "<<result[4]<<" "<<result[5]<<" "<<result[6]<<endl;
     return 0;
 }
