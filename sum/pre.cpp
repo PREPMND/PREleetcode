@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;        
 int main(){
-    int array[7]={0,0,1,1,1,2,2};
-    int result[7];
-    int *ap=result;
+    char array[7]={0,0,1,1,1,2,2};
+    char result[7];
+    char *ap=result;
     int k=0;
     for(int i=0;i<7;i++){
         for(int j=i+1;j<7;j++){
