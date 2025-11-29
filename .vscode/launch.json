@@ -6,7 +6,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "C:/Users/DELL/PREleetcode/sum/${fileBasenameNoExtension}.exe",
-            "cwd": "${fileDirname}",
+            "cwd": "C:/Users/DELL/PREleetcode/sum",
             "MIMode": "gdb",
             "miDebuggerPath": "",
             "preLaunchTask": "build"
