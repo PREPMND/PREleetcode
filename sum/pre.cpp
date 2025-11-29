@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;        
 int main(){
-    int array[7]={0,0,1,1,2,2,3};
+    int array[7]={0,0,1,1,1,2,2};
     int result[7];
     int *ap=result;
     int k=0;
