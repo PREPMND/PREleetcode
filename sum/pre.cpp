@@ -16,7 +16,7 @@ int main(){
     }
     cout<<"OUTPUT: WILL BE HERE\n";
     for(int m=k;m<7;m++){
-        *ap=0;
+        *ap='_';
         ap++;
     }
     cout<<result[0]<<" "<<result[1]<<" "<<result[2]<<" "<<result[3]<<" "<<result[4]<<" "<<result[5]<<" "<<result[6]<<endl;
