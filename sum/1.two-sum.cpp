@@ -9,6 +9,7 @@ int main(){
             std::cout<<array[i]<<" + "<<array[j]<<" = "<<target<<std::endl;
             int arr[]={i,j};
             cout<<"output: ["<<arr[0]<<","<<arr[1]<<"]"<<endl;
-        }}return 0;
+        }};
     }
+    return 0;   
 }
