@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;        
 int main(){
-    char array[7]={0,0,1,1,1,2,2};
+    char array[7]={'0','0','1','1','1','2','2'};
     char result[7];
     char *ap=result;
     int k=0;
