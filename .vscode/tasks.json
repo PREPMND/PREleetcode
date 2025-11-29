@@ -3,7 +3,7 @@
 	"tasks": [
 		{
 			
-			"label": "C/C++: g++.exe build",
+			"label": "build",
 			"command": "C:/msys64/mingw64/bin/g++.exe",
 			"args": [
 				"-fdiagnostics-color=always",
