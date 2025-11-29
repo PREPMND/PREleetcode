@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;        
 int main(){
-    char array[7]={'0','0','1','1','1','2','2'};
+    char array[7]={'0','0','1','1','2','2','1'};
     char result[7];
     char *ap=result;
     int k=0;
@@ -19,6 +19,6 @@ int main(){
         *ap='_';
         ap++;
     }
-    cout<<"["<<result[0]<<" , "<<result[1]<<" , "<<result[2]<<" , "<<result[3]<<" , "<<result[4]<<" , "<<result[5]<<" , "<<result[6]<<"]"<<endl;
+    cout<<"[ "<<result[0]<<" , "<<result[1]<<" , "<<result[2]<<" , "<<result[3]<<" , "<<result[4]<<" , "<<result[5]<<" , "<<result[6]<<" ]"<<endl;
     return 0;
 }
