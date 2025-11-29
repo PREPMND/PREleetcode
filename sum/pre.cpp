@@ -10,11 +10,9 @@ int main(){
             if(array[i]==array[j]){
                 *ap=array[i];
                 ap++;
-                k++;
-                
-                
-            } i++;     
-        }
+                k++;    
+            }      
+        }i++;
     }
     cout<<"OUTPUT: WILL BE HERE\n";
     for(int m=k;m<7;m++){
