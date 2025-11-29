@@ -11,7 +11,7 @@
             "program": "C:\\Users\\DELL\\PREleetcode\\PREleetcode\\a.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "cwd": "${PREleetcode}",
             "environment": [],
             "console": "externalTerminal"
         },
