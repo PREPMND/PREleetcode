@@ -2,7 +2,7 @@
 using namespace std;        
 int main(){
     char array[8]={'0','0','1','1','2','4','3','7'};
-    char result[7];
+    char result[8];
     char *ap=result;
     int k=0;
     for(int i=0;i<8;i++){
