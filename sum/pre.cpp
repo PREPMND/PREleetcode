@@ -7,7 +7,7 @@ int main(){
     int k=0;
     for(int i=0;i<8;i++){
         for(int j=i+1;j<8;j++){
-            if((result[0]!=array[i])&&(result[1]!=array[i])&&(result[2]!=array[i])&&(result[3]!=array[i])&&(result[4]!=array[i])&&(result[5]!=array[i])&&(result[6]!=array[i])){
+            if((result[0]!=array[i])&&(result[7]!=array[i])&&(result[1]!=array[i])&&(result[2]!=array[i])&&(result[3]!=array[i])&&(result[4]!=array[i])&&(result[5]!=array[i])&&(result[6]!=array[i])){
                 *ap=array[i];
                 ap++;
                 k++;        
